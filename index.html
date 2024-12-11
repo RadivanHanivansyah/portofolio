@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Portofolio Tailwind</title>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#14b8a6",
+              dark: "#0f172a",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <!-- Hero Section Start -->
+    <section id="home" class="pt-36">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4">
+            <h1 class="text-base font-semibold text-primary">
+              Halo Semua 👋, Saya
+              <span class="font-bold block text-4xl text-dark mt-1"
+                >Radivan Rahmatika Hanivansyah</span
+              >
+            </h1>
+            <h2 class="text-lg mb-5 font-medium text-slate-700">
+              Web Programmer
+            </h2>
+            <p class="font-medium text-slate-400 mb-10 leading-relaxed">
+              <span class="font-bold text-dark">Tetap Belajar</span> hingga
+              impianmu tercapai
+            </p>
+            <a
+              href="#"
+              class="text-base font-semibold text-white bg-primary rounded-full py-3 px-8 hover:shadow-lg hover:opacity-80 transition duration-300 ease-out"
+              >Hubungi Saya</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End -->
+  </body>
+</html>
